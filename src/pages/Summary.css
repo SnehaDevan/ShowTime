@@ -1,0 +1,50 @@
+.Summary_Container{
+    padding: 1vh;
+    background: linear-gradient(60deg, #282828 13.4%, #693882 86.6%);
+    width:98vw;
+    height:110vh;
+}
+.Summary_Container button{
+   background-color: #4CAF50;
+   height: 8vh;
+   width:20vw;
+   color:white;
+   font-size: 2vw;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.Summary_Content{
+    padding-top: 2vw;
+    display:flex;
+    flex-direction: row;
+}
+
+.Summary_Container button:hover{
+    background-color: rgb(117, 178, 178);
+}
+.Summary_Button{
+    padding-top: 2vw;
+    text-align: center;
+}
+.BookMovieButton{
+    text-decoration: none;
+    color: white;
+}
+.Summary_Title{
+    color:white;
+    text-decoration: solid;
+    font-size: 3vw;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 0.4vh solid black;
+    width:98vw;    
+}
+.Summary_Summary{
+    padding: 2% 1%;
+    color:white;
+    text-decoration: solid;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

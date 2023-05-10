@@ -1,0 +1,83 @@
+.Landing_Container {
+    padding-top: 1%;
+    background: radial-gradient(50% 50% at 50% 50%, #2E0F8A 0%, #000505 100%);
+}
+.Landing_Heading{
+    padding-left: 33%;
+    display:flex;
+    flex-direction: row;
+}
+.Landing_Icon1{
+    width:7vw;
+    height:19vh;
+   
+    padding-left:3%;
+    padding-top: 3%;
+}
+.Landing_Icon2{
+    width:7vw;
+    height:19vh;
+    padding-left:3%;
+    padding-top: 3%;
+}
+.Landing_Heading_Text{
+    width:25%;
+    height:19.5vh;
+    text-align: center;
+    font-style: italic;
+    color:white;
+}
+.Landing_Show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Landing_ShowContent {
+    width: 16%;
+    height:50%;
+    margin: 0.8vw;
+    border: 3px solid white;
+    padding: 1%;
+    text-align: center;
+    background-color: black;
+  }
+  .Landing_ShowContent button{
+   background-color: rgb(10, 180, 180);
+   height: 7vh;
+   width:50%;
+   border: 3px solid white;
+   color:rgb(38, 19, 75);
+  }
+
+  .Landing_ShowContent button:hover{
+    background-color: rgb(117, 178, 178);
+   }
+  .KnowMoreButton{
+     text-decoration: none;
+     color:aliceblue;
+     font-size: 1.3vw;
+   } 
+  
+  .ShowImage {
+    width: 10vw;
+    height: auto;
+  }
+  
+  .ShowName {
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+    color: white;
+  }
+  
+  .ShowLanguage {
+    margin-bottom:0.5vw;
+    color: white;
+    font-style:italic;
+  }
+  
+  .ShowGenre {
+    font-style:italic;
+    color : white;
+  }
+  

@@ -1,0 +1,62 @@
+.Book_Container{
+    background-image: url(../assets/Book.jpg);
+    padding-left: 5vw;
+    padding-top: 16vh;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Book_Heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    color: #105b28;
+}
+.Book_Form {
+    background: #2d2929;
+    box-shadow: 0vw 0.4vw 0.4vw rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color:white;
+    width:30vw;
+  }
+  
+  .Book_Form_Text form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .Book_Form_Text label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Book_Form_Text input[type="text"],
+  .Book_Form_Text input[type="date"] {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+  }
+  
+  .Book_Form_Text button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .Book_Form_Text button:hover {
+    background-color: #3e8e41;
+  }
+  
